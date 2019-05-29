@@ -65,7 +65,6 @@ gem 'jquery-ui-rails'
 gem 'normalize-rails'
 gem 'underscore-rails'
 gem 'markdown-rails'
-gem 'bootstrap-sass'
 gem "twitter-bootstrap-rails"
 
 #Application
@@ -74,6 +73,17 @@ gem 'semantic-ui-sass'
 gem "font-awesome-rails"
 gem "angularjs-rails"
 
+# Security Patches (Git)
+gem "nokogiri", ">= 1.8.5"
+gem "sprockets", ">= 3.7.2"
+gem "actionview", ">= 5.1.6.2"
+gem "ffi", ">= 1.9.24"
+gem "rack", ">= 2.0.6"
+gem "activejob", ">= 5.1.6.1"
+gem "loofah", ">= 2.2.3"
+gem "rubyzip", ">= 1.2.2"
+gem "bootstrap-sass", ">= 3.4.1"
+gem "rails-html-sanitizer", ">= 1.0.4"
 
 
 
